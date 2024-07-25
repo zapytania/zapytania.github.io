@@ -164,14 +164,11 @@
 <link rel="https://api.w.org/" href="https://www.nattakan.pl/wp-json/"/>
 <link rel="alternate" type="application/json" href="https://www.nattakan.pl/wp-json/wp/v2/pages/1651"/>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.nattakan.pl/xmlrpc.php?rsd"/>
-<meta name="generator" content="WordPress 6.4.5"/>
 <link rel='shortlink' href='https://www.nattakan.pl/'/>
 <link rel="alternate" type="application/json+oembed"
       href="https://www.nattakan.pl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nattakan.pl%2Fen%2F"/>
 <link rel="alternate" type="text/xml+oembed"
       href="https://www.nattakan.pl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nattakan.pl%2Fen%2F&#038;format=xml"/>
-<meta name="generator"
-      content="Elementor 3.19.2; features: e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
 <link rel="icon" href="https://www.nattakan.pl/wp-content/uploads/2020/09/cropped-logo2-favicon-32x32.png"
       sizes="32x32"/>
 <link rel="icon" href="https://www.nattakan.pl/wp-content/uploads/2020/09/cropped-logo2-favicon-192x192.png"
@@ -182,7 +179,16 @@
       content="https://www.nattakan.pl/wp-content/uploads/2020/09/cropped-logo2-favicon-270x270.png"/>
 
 
-<link rel="stylesheet" href="/build/app.css">
+<script>
+    /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+
+    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+</script>
+
+<link rel="preload" id="stylesheet" href="/build/app.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/build/app.css"></noscript>
             
             </head>
 <body class="flex min-h-full flex-col" data-sticky-container>
@@ -196,11 +202,11 @@
                     <a aria-label="Home" href="/en/">
                         <picture>
     <source srcset="/images/logos/logo-nattakan-color.webp" type="image/webp">
-    <source srcset="/images/logos/logo-nattakan-color.png" type="image/png">
+    <source srcset="/images/logos/logo-nattakan-color.webp" type="image/webp">
     <img
-            src="/images/logos/logo-nattakan-color.png"
+            src="/images/logos/logo-nattakan-color.webp"
             loading="lazy"
-            alt="image.description.37"
+            alt="image.description.254"
             width="180"
             height="72"
             class="inline "/>
@@ -214,13 +220,11 @@
                            aria-label="Change language toggle"
                             href="#"
                         >
-                            <span class="relative top-px">
                                                                 <svg class="w-6 h-6 inline" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><circle cx="256" cy="256" fill="#f0f0f0" r="256"/><path d="m512 256c0 141.384-114.616 256-256 256s-256-114.616-256-256" fill="#d80027"/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
                                 
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
                                          class="h-5 w-5 text-white inline"><path fill-rule="evenodd" d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z" clip-rule="evenodd"></path>
                                     </svg>
-                            </span>
                         </a>
                         <button type="button" aria-expanded="false" aria-controls=":R3a:"
                                 class="group -m-2.5 rounded-full p-2.5 transition hover:bg-nattakan-brown-950/10"
@@ -246,11 +250,11 @@
                             <a aria-label="Home" href="/en/">
                                 <picture>
     <source srcset="/images/logos/logo-nattakan-bg.webp" type="image/webp">
-    <source srcset="/images/logos/logo-nattakan-bg.png" type="image/png">
+    <source srcset="/images/logos/logo-nattakan-bg.webp" type="image/webp">
     <img
-            src="/images/logos/logo-nattakan-bg.png"
+            src="/images/logos/logo-nattakan-bg.webp"
             loading="lazy"
-            alt="image.description.36"
+            alt="image.description.250"
             width="180"
             height="72"
             class="inline "/>
@@ -377,11 +381,11 @@
                                         <a href="https://www.google.com/maps/dir//Nattakan+-+Thai+Massage,+Zgoda+5,+00-018+Warszawa/@52.2327844,21.0133873,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x471ecd78e8fc547f:0xfdd2f8767f5682e4!2m2!1d21.0133873!2d52.2327844?hl=en">
                                             <picture>
     <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
-    <source srcset="/images/logos/logo-n-white.png" type="image/png">
+    <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
     <img
-            src="/images/logos/logo-n-white.png"
+            src="/images/logos/logo-n-white.webp"
             loading="lazy"
-            alt="image.description.78"
+            alt="image.description.253"
             width="40"
             height="40"
             class="inline float-left mr-3""/>
@@ -402,11 +406,11 @@
                                         <a href="https://www.google.pl/maps/place/Nattakan+Thai+Massage+Centrum+-+salon+masa%C5%BCu+tajskiego/@52.2327877,21.010807,17z/data=!3m1!4b1!4m6!3m5!1s0x471ecd78e8fc547f:0xfdd2f8767f5682e4!8m2!3d52.2327844!4d21.0133873!16s%2Fg%2F11hsgpvqfb?entry=ttu?hl=en">
                                             <picture>
     <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
-    <source srcset="/images/logos/logo-n-white.png" type="image/png">
+    <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
     <img
-            src="/images/logos/logo-n-white.png"
+            src="/images/logos/logo-n-white.webp"
             loading="lazy"
-            alt="image.description.78"
+            alt="image.description.253"
             width="40"
             height="40"
             class="inline float-left mr-3""/>
@@ -503,7 +507,7 @@
                     <!-- page: start -->
     <div class="mx-auto max-w-xl lg:max-w-7xl mt-5 px-10" id="page">
         <div class="mx-auto mt-10">
-                        <div class="flex justify-center  " id="sticky-header_1565444942">
+                        <div class="flex justify-center  " id="sticky-header_455314716">
     <div>
                     <h1 class="font-TrajanProBold text-4xl text-nattakan-green text-center px-20">Massage for Pairs</h1>
         
@@ -546,11 +550,11 @@
                 <figure class="mt-10">
                         <picture>
     <source srcset="/images/photos/oldtown/we_love_massage.webp" type="image/webp">
-    <source srcset="/images/photos/oldtown/we_love_massage.jpg" type="image/jpg">
+    <source srcset="/images/photos/oldtown/we_love_massage.webp" type="image/webp">
     <img
-            src="/images/photos/oldtown/we_love_massage.jpg"
+            src="/images/photos/oldtown/we_love_massage.webp"
             loading="lazy"
-            alt="image.description.81"
+            alt="image.description.202"
             width="4284"
             height="3600"
             class="inline rounded-3xl "/>
@@ -991,11 +995,8 @@ Details on the package price can be found on our Deals page.
         </div>
     </div>
 
-    <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
-    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
-
-
-
+    <script async src="/js/embla-carousel-autoplay.umd.js"></script>
+    <script async src="/js/embla-carousel.umd.js"></script>
     <script async src="/js/main.js"></script>
 </body>
 </html>

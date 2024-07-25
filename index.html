@@ -164,14 +164,11 @@
 <link rel="https://api.w.org/" href="https://www.nattakan.pl/wp-json/"/>
 <link rel="alternate" type="application/json" href="https://www.nattakan.pl/wp-json/wp/v2/pages/1651"/>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.nattakan.pl/xmlrpc.php?rsd"/>
-<meta name="generator" content="WordPress 6.4.5"/>
 <link rel='shortlink' href='https://www.nattakan.pl/'/>
 <link rel="alternate" type="application/json+oembed"
       href="https://www.nattakan.pl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nattakan.pl%2Fen%2F"/>
 <link rel="alternate" type="text/xml+oembed"
       href="https://www.nattakan.pl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nattakan.pl%2Fen%2F&#038;format=xml"/>
-<meta name="generator"
-      content="Elementor 3.19.2; features: e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
 <link rel="icon" href="https://www.nattakan.pl/wp-content/uploads/2020/09/cropped-logo2-favicon-32x32.png"
       sizes="32x32"/>
 <link rel="icon" href="https://www.nattakan.pl/wp-content/uploads/2020/09/cropped-logo2-favicon-192x192.png"
@@ -182,7 +179,16 @@
       content="https://www.nattakan.pl/wp-content/uploads/2020/09/cropped-logo2-favicon-270x270.png"/>
 
 
-<link rel="stylesheet" href="/build/app.css">
+<script>
+    /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+
+    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+</script>
+
+<link rel="preload" id="stylesheet" href="/build/app.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/build/app.css"></noscript>
             
             </head>
 <body class="flex min-h-full flex-col" data-sticky-container>
@@ -196,11 +202,11 @@
                     <a aria-label="Home" href="/">
                         <picture>
     <source srcset="/images/logos/logo-nattakan-color.webp" type="image/webp">
-    <source srcset="/images/logos/logo-nattakan-color.png" type="image/png">
+    <source srcset="/images/logos/logo-nattakan-color.webp" type="image/webp">
     <img
-            src="/images/logos/logo-nattakan-color.png"
+            src="/images/logos/logo-nattakan-color.webp"
             loading="lazy"
-            alt="image.description.37"
+            alt="image.description.254"
             width="180"
             height="72"
             class="inline "/>
@@ -214,13 +220,11 @@
                            aria-label="Change language toggle"
                             href="#"
                         >
-                            <span class="relative top-px">
                                                                 <svg class="w-6 h-6 inline" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><circle cx="256" cy="256" fill="#f0f0f0" r="256"/><g fill="#0052b4"><path d="m52.92 100.142c-20.109 26.163-35.272 56.318-44.101 89.077h133.178z"/><path d="m503.181 189.219c-8.829-32.758-23.993-62.913-44.101-89.076l-89.075 89.076z"/><path d="m8.819 322.784c8.83 32.758 23.993 62.913 44.101 89.075l89.074-89.075z"/><path d="m411.858 52.921c-26.163-20.109-56.317-35.272-89.076-44.102v133.177z"/><path d="m100.142 459.079c26.163 20.109 56.318 35.272 89.076 44.102v-133.176z"/><path d="m189.217 8.819c-32.758 8.83-62.913 23.993-89.075 44.101l89.075 89.075z"/><path d="m322.783 503.181c32.758-8.83 62.913-23.993 89.075-44.101l-89.075-89.075z"/><path d="m370.005 322.784 89.075 89.076c20.108-26.162 35.272-56.318 44.101-89.076z"/></g><g fill="#d80027"><path d="m509.833 222.609h-220.44-.001v-220.442c-10.931-1.423-22.075-2.167-33.392-2.167-11.319 0-22.461.744-33.391 2.167v220.44.001h-220.442c-1.423 10.931-2.167 22.075-2.167 33.392 0 11.319.744 22.461 2.167 33.391h220.44.001v220.442c10.931 1.423 22.073 2.167 33.392 2.167 11.317 0 22.461-.743 33.391-2.167v-220.44-.001h220.442c1.423-10.931 2.167-22.073 2.167-33.392 0-11.317-.744-22.461-2.167-33.391z"/><path d="m322.783 322.784 114.236 114.236c5.254-5.252 10.266-10.743 15.048-16.435l-97.802-97.802h-31.482z"/><path d="m189.217 322.784h-.002l-114.235 114.235c5.252 5.254 10.743 10.266 16.435 15.048l97.802-97.804z"/><path d="m189.217 189.219v-.002l-114.236-114.237c-5.254 5.252-10.266 10.743-15.048 16.435l97.803 97.803h31.481z"/><path d="m322.783 189.219 114.237-114.238c-5.252-5.254-10.743-10.266-16.435-15.047l-97.802 97.803z"/></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
                                 
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
                                          class="h-5 w-5 text-white inline"><path fill-rule="evenodd" d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z" clip-rule="evenodd"></path>
                                     </svg>
-                            </span>
                         </a>
                         <button type="button" aria-expanded="false" aria-controls=":R3a:"
                                 class="group -m-2.5 rounded-full p-2.5 transition hover:bg-nattakan-brown-950/10"
@@ -246,11 +250,11 @@
                             <a aria-label="Home" href="/">
                                 <picture>
     <source srcset="/images/logos/logo-nattakan-bg.webp" type="image/webp">
-    <source srcset="/images/logos/logo-nattakan-bg.png" type="image/png">
+    <source srcset="/images/logos/logo-nattakan-bg.webp" type="image/webp">
     <img
-            src="/images/logos/logo-nattakan-bg.png"
+            src="/images/logos/logo-nattakan-bg.webp"
             loading="lazy"
-            alt="image.description.36"
+            alt="image.description.250"
             width="180"
             height="72"
             class="inline "/>
@@ -377,11 +381,11 @@
                                         <a href="https://www.google.com/maps/dir//Nattakan+-+Thai+Massage,+Zgoda+5,+00-018+Warszawa/@52.2327844,21.0133873,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x471ecd78e8fc547f:0xfdd2f8767f5682e4!2m2!1d21.0133873!2d52.2327844?hl=pl">
                                             <picture>
     <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
-    <source srcset="/images/logos/logo-n-white.png" type="image/png">
+    <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
     <img
-            src="/images/logos/logo-n-white.png"
+            src="/images/logos/logo-n-white.webp"
             loading="lazy"
-            alt="image.description.78"
+            alt="image.description.253"
             width="40"
             height="40"
             class="inline float-left mr-3""/>
@@ -402,11 +406,11 @@
                                         <a href="https://goo.gl/maps/mTGJXkjQGi15qkCJA">
                                             <picture>
     <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
-    <source srcset="/images/logos/logo-n-white.png" type="image/png">
+    <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
     <img
-            src="/images/logos/logo-n-white.png"
+            src="/images/logos/logo-n-white.webp"
             loading="lazy"
-            alt="image.description.78"
+            alt="image.description.253"
             width="40"
             height="40"
             class="inline float-left mr-3""/>
@@ -507,7 +511,7 @@
 
 <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-14 sm:mt-12 md:mt-16">
     <div class="mx-auto ">
-            <div class="flex justify-center  " id="sticky-header_1223852394">
+            <div class="flex justify-center  " id="sticky-header_1252664044">
     <div>
                     <h1 class="font-TrajanProBold text-4xl text-nattakan-green text-center px-20">Salony Masażu Tajskiego Nattakan</h1>
         
@@ -919,10 +923,10 @@
                                                               "
 
 
-        id="btn_show_577562655"        href="#"        onclick="nattakan_button_onlick577562655(event)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 inline mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" /></svg>
+        id="btn_show_1309895519"        href="#"        onclick="nattakan_button_onlick1309895519(event)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 inline mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" /></svg>
                 Pokaż nr telefonu
 </a>    </span>
-    <span class="sm:inline md:hidden lg:hidden" id="btn_showed_div_577562655">
+    <span class="sm:inline md:hidden lg:hidden" id="btn_showed_div_1309895519">
         <a class="bg-nattakan-green hover:bg-nattakan-green-dark
                                text-white font-bold px-6 mt-3
                                rounded-3xl py-3 transition
@@ -930,16 +934,16 @@
                                                               "
 
 
-        id="btn_showed_577562655"        href="tel:+48790553558"        ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 inline mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" /></svg>
+        id="btn_showed_1309895519"        href="tel:+48790553558"        ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 inline mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" /></svg>
                 +48790553558
 </a>    </span>
 </span>
 <script>
-function nattakan_button_onlick577562655(event) {
+function nattakan_button_onlick1309895519(event) {
     event.preventDefault();
-    document.getElementById('btn_showed_div_577562655').classList.remove('lg:hidden');
-    document.getElementById('btn_showed_div_577562655').classList.remove('md:hidden');
-    document.getElementById('btn_show_577562655').classList.add('hidden');
+    document.getElementById('btn_showed_div_1309895519').classList.remove('lg:hidden');
+    document.getElementById('btn_showed_div_1309895519').classList.remove('md:hidden');
+    document.getElementById('btn_show_1309895519').classList.add('hidden');
 }
 </script>
                             </div>
@@ -991,10 +995,10 @@ function nattakan_button_onlick577562655(event) {
                                                               "
 
 
-        id="btn_show_1717003732"        href="#"        onclick="nattakan_button_onlick1717003732(event)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 inline mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" /></svg>
+        id="btn_show_1852012573"        href="#"        onclick="nattakan_button_onlick1852012573(event)"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 inline mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" /></svg>
                 Pokaż nr telefonu
 </a>    </span>
-    <span class="sm:inline md:hidden lg:hidden" id="btn_showed_div_1717003732">
+    <span class="sm:inline md:hidden lg:hidden" id="btn_showed_div_1852012573">
         <a class="bg-nattakan-green hover:bg-nattakan-green-dark
                                text-white font-bold px-6 mt-3
                                rounded-3xl py-3 transition
@@ -1002,16 +1006,16 @@ function nattakan_button_onlick577562655(event) {
                                                               "
 
 
-        id="btn_showed_1717003732"        href="tel:+48730878898"        ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 inline mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" /></svg>
+        id="btn_showed_1852012573"        href="tel:+48730878898"        ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 inline mr-3"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" /></svg>
                 +48730878898
 </a>    </span>
 </span>
 <script>
-function nattakan_button_onlick1717003732(event) {
+function nattakan_button_onlick1852012573(event) {
     event.preventDefault();
-    document.getElementById('btn_showed_div_1717003732').classList.remove('lg:hidden');
-    document.getElementById('btn_showed_div_1717003732').classList.remove('md:hidden');
-    document.getElementById('btn_show_1717003732').classList.add('hidden');
+    document.getElementById('btn_showed_div_1852012573').classList.remove('lg:hidden');
+    document.getElementById('btn_showed_div_1852012573').classList.remove('md:hidden');
+    document.getElementById('btn_show_1852012573').classList.add('hidden');
 }
 </script>
                             </div>
@@ -1089,11 +1093,11 @@ function nattakan_button_onlick1717003732(event) {
     <div class="scroll-animate " style="grid-column: 1; grid-row: 1">
         <picture>
     <source srcset="/images/photos/general/relax_layered2.webp" type="image/webp">
-    <source srcset="/images/photos/general/relax_layered2.png" type="image/png">
+    <source srcset="/images/photos/general/relax_layered2.webp" type="image/webp">
     <img
-            src="/images/photos/general/relax_layered2.png"
+            src="/images/photos/general/relax_layered2.webp"
             loading="lazy"
-            alt="image.description.136"
+            alt="image.description.229"
             width="1280"
             height="800"
             class="inline rounded-3xl "/>
@@ -1102,11 +1106,11 @@ function nattakan_button_onlick1717003732(event) {
     <div class="scroll-animate scroll-animate-delay-3 opacity-25 relative"  style="grid-column: 1; grid-row: 1">
         <picture>
     <source srcset="/images/photos/general/relax_layered1.webp" type="image/webp">
-    <source srcset="/images/photos/general/relax_layered1.jpg" type="image/jpg">
+    <source srcset="/images/photos/general/relax_layered1.webp" type="image/webp">
     <img
-            src="/images/photos/general/relax_layered1.jpg"
+            src="/images/photos/general/relax_layered1.webp"
             loading="lazy"
-            alt="image.description.134"
+            alt="image.description.233"
             width="1280"
             height="800"
             class="inline rounded-3xl "/>
@@ -1122,7 +1126,7 @@ function nattakan_button_onlick1717003732(event) {
     <!-- block.start: our offer, text and 3 boxes -->
     
 <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
-        <div class="flex justify-center sticky-header " id="sticky-header_1765137428">
+        <div class="flex justify-center sticky-header " id="sticky-header_932422401">
     <div>
                     <h2 class="font-TrajanProBold text-4xl text-nattakan-green text-center px-20">Oferta Masaży Tajskich</h2>
         
@@ -1182,7 +1186,7 @@ function nattakan_button_onlick1717003732(event) {
 
                         </p>
 
-                <div class="flex justify-center sticky-header-mobile " id="sticky-header_1127370330">
+                <div class="flex justify-center sticky-header-mobile " id="sticky-header_1968358819">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Masaże Tradycyjne</h3>
         
@@ -1244,7 +1248,7 @@ function nattakan_button_onlick1717003732(event) {
 
                         </p>
 
-                <div class="flex justify-center sticky-header-mobile " id="sticky-header_1262722523">
+                <div class="flex justify-center sticky-header-mobile " id="sticky-header_58870528">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Masaże Relaksacyjne</h3>
         
@@ -1306,7 +1310,7 @@ function nattakan_button_onlick1717003732(event) {
 
                         </p>
 
-                <div class="flex justify-center sticky-header-mobile " id="sticky-header_1107560823">
+                <div class="flex justify-center sticky-header-mobile " id="sticky-header_1579027601">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Masaże Premium</h3>
         
@@ -1360,11 +1364,11 @@ function nattakan_button_onlick1717003732(event) {
     <div class="scroll-animate " style="grid-column: 1; grid-row: 1">
         <picture>
     <source srcset="/images/photos/general/stretching_layered2.webp" type="image/webp">
-    <source srcset="/images/photos/general/stretching_layered2.png" type="image/png">
+    <source srcset="/images/photos/general/stretching_layered2.webp" type="image/webp">
     <img
-            src="/images/photos/general/stretching_layered2.png"
+            src="/images/photos/general/stretching_layered2.webp"
             loading="lazy"
-            alt="image.description.137"
+            alt="image.description.227"
             width="1280"
             height="729"
             class="inline rounded-3xl "/>
@@ -1373,11 +1377,11 @@ function nattakan_button_onlick1717003732(event) {
     <div class="scroll-animate scroll-animate-delay-3 opacity-25 relative"  style="grid-column: 1; grid-row: 1">
         <picture>
     <source srcset="/images/photos/general/stretching_layered1.webp" type="image/webp">
-    <source srcset="/images/photos/general/stretching_layered1.jpg" type="image/jpg">
+    <source srcset="/images/photos/general/stretching_layered1.webp" type="image/webp">
     <img
-            src="/images/photos/general/stretching_layered1.jpg"
+            src="/images/photos/general/stretching_layered1.webp"
             loading="lazy"
-            alt="image.description.139"
+            alt="image.description.231"
             width="1280"
             height="729"
             class="inline rounded-3xl "/>
@@ -1395,7 +1399,7 @@ function nattakan_button_onlick1717003732(event) {
 <!-- block.start: prices regular -->
 <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
     <a id="Cennik"></a>
-        <div class="flex justify-center sticky-header " id="sticky-header_1450070838">
+        <div class="flex justify-center sticky-header " id="sticky-header_444331410">
     <div>
                     <h2 class="font-TrajanProBold text-4xl text-nattakan-green text-center px-20">Cennik Masaży Tajskich</h2>
         
@@ -1439,7 +1443,7 @@ function nattakan_button_onlick1717003732(event) {
 <article
         class="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8 ">
 
-            <div class="flex justify-center sticky-header-mobile " id="sticky-header_557788911">
+            <div class="flex justify-center sticky-header-mobile " id="sticky-header_598918131">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Na Ból</h3>
         
@@ -1478,11 +1482,11 @@ function nattakan_button_onlick1717003732(event) {
 
     <picture>
     <source srcset="/images/packages/00_for_pain.webp" type="image/webp">
-    <source srcset="/images/packages/00_for_pain.jpg" type="image/jpg">
+    <source srcset="/images/packages/00_for_pain.webp" type="image/webp">
     <img
-            src="/images/packages/00_for_pain.jpg"
+            src="/images/packages/00_for_pain.webp"
             loading="lazy"
-            alt="image.description.96"
+            alt="image.description.234"
             width="800"
             height="800"
             class="inline rounded-3xl mt-10 scroll-animate-vertical ""/>
@@ -1617,7 +1621,7 @@ function nattakan_button_onlick1717003732(event) {
         class="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8 ">
 
             <a id="page.home.anchor.category.thai"></a>
-            <div class="flex justify-center sticky-header-mobile " id="sticky-header_641936">
+            <div class="flex justify-center sticky-header-mobile " id="sticky-header_1621757377">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Tajskie Doświadczenie</h3>
         
@@ -1656,11 +1660,11 @@ function nattakan_button_onlick1717003732(event) {
 
     <picture>
     <source srcset="/images/packages/02_thai_massage_2.webp" type="image/webp">
-    <source srcset="/images/packages/02_thai_massage_2.jpg" type="image/jpg">
+    <source srcset="/images/packages/02_thai_massage_2.webp" type="image/webp">
     <img
-            src="/images/packages/02_thai_massage_2.jpg"
+            src="/images/packages/02_thai_massage_2.webp"
             loading="lazy"
-            alt="image.description.101"
+            alt="image.description.235"
             width="800"
             height="800"
             class="inline rounded-3xl mt-10 scroll-animate-vertical scroll-animate-delay-1""/>
@@ -1795,7 +1799,7 @@ function nattakan_button_onlick1717003732(event) {
         class="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8 ">
 
             <a id="page.home.anchor.category.relax"></a>
-            <div class="flex justify-center sticky-header-mobile " id="sticky-header_669894603">
+            <div class="flex justify-center sticky-header-mobile " id="sticky-header_925314765">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Dla Relaksu</h3>
         
@@ -1834,11 +1838,11 @@ function nattakan_button_onlick1717003732(event) {
 
     <picture>
     <source srcset="/images/packages/05_for_relax_nattakan.webp" type="image/webp">
-    <source srcset="/images/packages/05_for_relax_nattakan.jpg" type="image/jpg">
+    <source srcset="/images/packages/05_for_relax_nattakan.webp" type="image/webp">
     <img
-            src="/images/packages/05_for_relax_nattakan.jpg"
+            src="/images/packages/05_for_relax_nattakan.webp"
             loading="lazy"
-            alt="image.description.100"
+            alt="image.description.246"
             width="800"
             height="800"
             class="inline rounded-3xl mt-10 scroll-animate-vertical scroll-animate-delay-2""/>
@@ -1972,7 +1976,7 @@ function nattakan_button_onlick1717003732(event) {
 <article
         class="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8 ">
 
-            <div class="flex justify-center sticky-header-mobile " id="sticky-header_722940449">
+            <div class="flex justify-center sticky-header-mobile " id="sticky-header_169717383">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Gorące</h3>
         
@@ -2011,11 +2015,11 @@ function nattakan_button_onlick1717003732(event) {
 
     <picture>
     <source srcset="/images/packages/09_hot_health.webp" type="image/webp">
-    <source srcset="/images/packages/09_hot_health.jpg" type="image/jpg">
+    <source srcset="/images/packages/09_hot_health.webp" type="image/webp">
     <img
-            src="/images/packages/09_hot_health.jpg"
+            src="/images/packages/09_hot_health.webp"
             loading="lazy"
-            alt="image.description.90"
+            alt="image.description.236"
             width="800"
             height="800"
             class="inline rounded-3xl mt-10 scroll-animate-vertical ""/>
@@ -2101,7 +2105,7 @@ function nattakan_button_onlick1717003732(event) {
 <article
         class="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8 ">
 
-            <div class="flex justify-center sticky-header-mobile " id="sticky-header_351450480">
+            <div class="flex justify-center sticky-header-mobile " id="sticky-header_481141912">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Specjalistyczne</h3>
         
@@ -2140,11 +2144,11 @@ function nattakan_button_onlick1717003732(event) {
 
     <picture>
     <source srcset="/images/packages/12_sport3_specialist.webp" type="image/webp">
-    <source srcset="/images/packages/12_sport3_specialist.jpg" type="image/jpg">
+    <source srcset="/images/packages/12_sport3_specialist.webp" type="image/webp">
     <img
-            src="/images/packages/12_sport3_specialist.jpg"
+            src="/images/packages/12_sport3_specialist.webp"
             loading="lazy"
-            alt="image.description.98"
+            alt="image.description.249"
             width="800"
             height="800"
             class="inline rounded-3xl mt-10 scroll-animate-vertical scroll-animate-delay-1""/>
@@ -2254,7 +2258,7 @@ function nattakan_button_onlick1717003732(event) {
 <article
         class="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8 ">
 
-            <div class="flex justify-center sticky-header-mobile " id="sticky-header_422480754">
+            <div class="flex justify-center sticky-header-mobile " id="sticky-header_560800154">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">SPA</h3>
         
@@ -2293,11 +2297,11 @@ function nattakan_button_onlick1717003732(event) {
 
     <picture>
     <source srcset="/images/packages/15_spa.webp" type="image/webp">
-    <source srcset="/images/packages/15_spa.jpg" type="image/jpg">
+    <source srcset="/images/packages/15_spa.webp" type="image/webp">
     <img
-            src="/images/packages/15_spa.jpg"
+            src="/images/packages/15_spa.webp"
             loading="lazy"
-            alt="image.description.104"
+            alt="image.description.239"
             width="800"
             height="800"
             class="inline rounded-3xl mt-10 scroll-animate-vertical scroll-animate-delay-2""/>
@@ -2408,7 +2412,7 @@ function nattakan_button_onlick1717003732(event) {
 <!-- block.start: prices promo -->
 
 <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
-        <div class="flex justify-center sticky-header " id="sticky-header_1107230505">
+        <div class="flex justify-center sticky-header " id="sticky-header_1499845786">
     <div>
                     <h2 class="font-TrajanProBold text-4xl text-nattakan-green text-center px-20">Masaże Tajskie Oferta Specjalna</h2>
         
@@ -2453,7 +2457,7 @@ function nattakan_button_onlick1717003732(event) {
 
 <article
         class="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8 ">
-        <div class="flex justify-center sticky-header-mobile " id="sticky-header_799412358">
+        <div class="flex justify-center sticky-header-mobile " id="sticky-header_1765889512">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Dla Dwojga</h3>
         
@@ -2492,18 +2496,18 @@ function nattakan_button_onlick1717003732(event) {
 
     <picture>
     <source srcset="/images/packages/13_couples.webp" type="image/webp">
-    <source srcset="/images/packages/13_couples.jpg" type="image/jpg">
+    <source srcset="/images/packages/13_couples.webp" type="image/webp">
     <img
-            src="/images/packages/13_couples.jpg"
+            src="/images/packages/13_couples.webp"
             loading="lazy"
-            alt="image.description.105"
+            alt="image.description.243"
             width="800"
             height="800"
             class="inline rounded-3xl mt-10 ""/>
 </picture>
 
                                                 <p class="mt-10">
-                                <div class="flex justify-center sticky-header-mobile " id="sticky-header_549768920">
+                                <div class="flex justify-center sticky-header-mobile " id="sticky-header_2075711727">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Tajskie Doświadczenie</h3>
         
@@ -2567,7 +2571,7 @@ function nattakan_button_onlick1717003732(event) {
     </p>
 
                                             <p class="mt-10">
-                                <div class="flex justify-center sticky-header-mobile " id="sticky-header_1361060545">
+                                <div class="flex justify-center sticky-header-mobile " id="sticky-header_1555526244">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Dla Relaksu</h3>
         
@@ -2664,7 +2668,7 @@ function nattakan_button_onlick1717003732(event) {
 
 <article
         class="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8 ">
-        <div class="flex justify-center sticky-header-mobile " id="sticky-header_16128372">
+        <div class="flex justify-center sticky-header-mobile " id="sticky-header_747812000">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Super cena</h3>
         
@@ -2703,11 +2707,11 @@ function nattakan_button_onlick1717003732(event) {
 
     <picture>
     <source srcset="/images/packages/08_saver.webp" type="image/webp">
-    <source srcset="/images/packages/08_saver.jpg" type="image/jpg">
+    <source srcset="/images/packages/08_saver.webp" type="image/webp">
     <img
-            src="/images/packages/08_saver.jpg"
+            src="/images/packages/08_saver.webp"
             loading="lazy"
-            alt="image.description.95"
+            alt="image.description.247"
             width="800"
             height="800"
             class="inline rounded-3xl mt-10 ""/>
@@ -2824,7 +2828,7 @@ function nattakan_button_onlick1717003732(event) {
 
 <article
         class="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8 ">
-        <div class="flex justify-center sticky-header-mobile " id="sticky-header_390473335">
+        <div class="flex justify-center sticky-header-mobile " id="sticky-header_1208372029">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Promocje</h3>
         
@@ -2863,11 +2867,11 @@ function nattakan_button_onlick1717003732(event) {
 
     <picture>
     <source srcset="/images/packages/14_promotions.webp" type="image/webp">
-    <source srcset="/images/packages/14_promotions.jpg" type="image/jpg">
+    <source srcset="/images/packages/14_promotions.webp" type="image/webp">
     <img
-            src="/images/packages/14_promotions.jpg"
+            src="/images/packages/14_promotions.webp"
             loading="lazy"
-            alt="image.description.97"
+            alt="image.description.245"
             width="800"
             height="800"
             class="inline rounded-3xl mt-10 ""/>
@@ -2926,11 +2930,11 @@ function nattakan_button_onlick1717003732(event) {
     <div class="scroll-animate " style="grid-column: 1; grid-row: 1">
         <picture>
     <source srcset="/images/photos/general/couple_layered2.webp" type="image/webp">
-    <source srcset="/images/photos/general/couple_layered2.png" type="image/png">
+    <source srcset="/images/photos/general/couple_layered2.webp" type="image/webp">
     <img
-            src="/images/photos/general/couple_layered2.png"
+            src="/images/photos/general/couple_layered2.webp"
             loading="lazy"
-            alt="image.description.135"
+            alt="image.description.232"
             width="1280"
             height="648"
             class="inline rounded-3xl "/>
@@ -2939,11 +2943,11 @@ function nattakan_button_onlick1717003732(event) {
     <div class="scroll-animate scroll-animate-delay-3 opacity-25 relative"  style="grid-column: 1; grid-row: 1">
         <picture>
     <source srcset="/images/photos/general/couple_layered1.webp" type="image/webp">
-    <source srcset="/images/photos/general/couple_layered1.jpg" type="image/jpg">
+    <source srcset="/images/photos/general/couple_layered1.webp" type="image/webp">
     <img
-            src="/images/photos/general/couple_layered1.jpg"
+            src="/images/photos/general/couple_layered1.webp"
             loading="lazy"
-            alt="image.description.138"
+            alt="image.description.228"
             width="1280"
             height="648"
             class="inline rounded-3xl "/>
@@ -2960,7 +2964,7 @@ function nattakan_button_onlick1717003732(event) {
     
 <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
     <a id="Nattakan"></a>
-        <div class="flex justify-center sticky-header " id="sticky-header_1758064295">
+        <div class="flex justify-center sticky-header " id="sticky-header_39971905">
     <div>
                     <h2 class="font-TrajanProBold text-4xl text-nattakan-green text-center px-20">Nasz wspaniały zespół terapeutek</h2>
         
@@ -3016,7 +3020,7 @@ function nattakan_button_onlick1717003732(event) {
 </picture>
 
 
-        <div class="flex justify-center sticky-header-mobile " id="sticky-header_1826206184">
+        <div class="flex justify-center sticky-header-mobile " id="sticky-header_785528143">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Nang</h3>
         
@@ -3110,7 +3114,7 @@ function nattakan_button_onlick1717003732(event) {
 </picture>
 
 
-        <div class="flex justify-center sticky-header-mobile " id="sticky-header_573688095">
+        <div class="flex justify-center sticky-header-mobile " id="sticky-header_1432820630">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Ploy</h3>
         
@@ -3204,7 +3208,7 @@ function nattakan_button_onlick1717003732(event) {
 </picture>
 
 
-        <div class="flex justify-center sticky-header-mobile " id="sticky-header_1822076298">
+        <div class="flex justify-center sticky-header-mobile " id="sticky-header_2110363986">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Fon</h3>
         
@@ -3299,7 +3303,7 @@ function nattakan_button_onlick1717003732(event) {
 </picture>
 
 
-        <div class="flex justify-center sticky-header-mobile " id="sticky-header_927191499">
+        <div class="flex justify-center sticky-header-mobile " id="sticky-header_12054548">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Putri</h3>
         
@@ -3393,7 +3397,7 @@ function nattakan_button_onlick1717003732(event) {
 </picture>
 
 
-        <div class="flex justify-center sticky-header-mobile " id="sticky-header_995963844">
+        <div class="flex justify-center sticky-header-mobile " id="sticky-header_1220840111">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Julii</h3>
         
@@ -3487,7 +3491,7 @@ function nattakan_button_onlick1717003732(event) {
 </picture>
 
 
-        <div class="flex justify-center sticky-header-mobile " id="sticky-header_908285703">
+        <div class="flex justify-center sticky-header-mobile " id="sticky-header_1645428066">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">Nattakan</h3>
         
@@ -3589,7 +3593,7 @@ function nattakan_button_onlick1717003732(event) {
 
     <!-- block.start: gallery carousel -->
     <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
-            <div class="flex justify-center sticky-header " id="sticky-header_37923972">
+            <div class="flex justify-center sticky-header " id="sticky-header_1684730511">
     <div>
                     <h2 class="font-TrajanProBold text-4xl text-nattakan-green text-center px-20">Galeria zdjęć</h2>
         
@@ -3753,7 +3757,7 @@ function nattakan_button_onlick1717003732(event) {
 
     <!-- block.start: reviews carousel -->
     <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-16">
-        <div class="flex justify-center sticky-header " id="sticky-header_2003798483">
+        <div class="flex justify-center sticky-header " id="sticky-header_930572497">
     <div>
                     <h2 class="font-TrajanProBold text-4xl text-nattakan-green text-center px-20">Opinie</h2>
         
@@ -3801,11 +3805,11 @@ function nattakan_button_onlick1717003732(event) {
                                      >
                                             <picture>
     <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp" type="image/webp">
-    <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.jpg" type="image/jpg">
+    <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp" type="image/webp">
     <img
-            src="/images/3rdparty/photo-1601381718415-a05fb0a261f3.jpg"
+            src="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp"
             loading="lazy"
-            alt="image.description.140"
+            alt="image.description.255"
             width="1216"
             height="811"
             class="inline absolute inset-0 h-full w-full object-cover brightness-150 saturate-0""/>
@@ -3862,11 +3866,11 @@ function nattakan_button_onlick1717003732(event) {
                                      >
                                             <picture>
     <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp" type="image/webp">
-    <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.jpg" type="image/jpg">
+    <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp" type="image/webp">
     <img
-            src="/images/3rdparty/photo-1601381718415-a05fb0a261f3.jpg"
+            src="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp"
             loading="lazy"
-            alt="image.description.140"
+            alt="image.description.255"
             width="1216"
             height="811"
             class="inline absolute inset-0 h-full w-full object-cover brightness-150 saturate-0""/>
@@ -3923,11 +3927,11 @@ function nattakan_button_onlick1717003732(event) {
                                      >
                                             <picture>
     <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp" type="image/webp">
-    <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.jpg" type="image/jpg">
+    <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp" type="image/webp">
     <img
-            src="/images/3rdparty/photo-1601381718415-a05fb0a261f3.jpg"
+            src="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp"
             loading="lazy"
-            alt="image.description.140"
+            alt="image.description.255"
             width="1216"
             height="811"
             class="inline absolute inset-0 h-full w-full object-cover brightness-150 saturate-0""/>
@@ -3984,11 +3988,11 @@ function nattakan_button_onlick1717003732(event) {
                                      >
                                             <picture>
     <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp" type="image/webp">
-    <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.jpg" type="image/jpg">
+    <source srcset="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp" type="image/webp">
     <img
-            src="/images/3rdparty/photo-1601381718415-a05fb0a261f3.jpg"
+            src="/images/3rdparty/photo-1601381718415-a05fb0a261f3.webp"
             loading="lazy"
-            alt="image.description.140"
+            alt="image.description.255"
             width="1216"
             height="811"
             class="inline absolute inset-0 h-full w-full object-cover brightness-150 saturate-0""/>
@@ -4402,11 +4406,8 @@ function nattakan_button_onlick1717003732(event) {
         </div>
     </div>
 
-    <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
-    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
-
-
-
+    <script async src="/js/embla-carousel-autoplay.umd.js"></script>
+    <script async src="/js/embla-carousel.umd.js"></script>
     <script async src="/js/main.js"></script>
 </body>
 </html>

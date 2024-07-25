@@ -164,14 +164,11 @@
 <link rel="https://api.w.org/" href="https://www.nattakan.pl/wp-json/"/>
 <link rel="alternate" type="application/json" href="https://www.nattakan.pl/wp-json/wp/v2/pages/1651"/>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.nattakan.pl/xmlrpc.php?rsd"/>
-<meta name="generator" content="WordPress 6.4.5"/>
 <link rel='shortlink' href='https://www.nattakan.pl/'/>
 <link rel="alternate" type="application/json+oembed"
       href="https://www.nattakan.pl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nattakan.pl%2Fen%2F"/>
 <link rel="alternate" type="text/xml+oembed"
       href="https://www.nattakan.pl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.nattakan.pl%2Fen%2F&#038;format=xml"/>
-<meta name="generator"
-      content="Elementor 3.19.2; features: e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
 <link rel="icon" href="https://www.nattakan.pl/wp-content/uploads/2020/09/cropped-logo2-favicon-32x32.png"
       sizes="32x32"/>
 <link rel="icon" href="https://www.nattakan.pl/wp-content/uploads/2020/09/cropped-logo2-favicon-192x192.png"
@@ -182,7 +179,16 @@
       content="https://www.nattakan.pl/wp-content/uploads/2020/09/cropped-logo2-favicon-270x270.png"/>
 
 
-<link rel="stylesheet" href="/build/app.css">
+<script>
+    /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+
+    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+</script>
+
+<link rel="preload" id="stylesheet" href="/build/app.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/build/app.css"></noscript>
             
             </head>
 <body class="flex min-h-full flex-col" data-sticky-container>
@@ -196,11 +202,11 @@
                     <a aria-label="Home" href="/">
                         <picture>
     <source srcset="/images/logos/logo-nattakan-color.webp" type="image/webp">
-    <source srcset="/images/logos/logo-nattakan-color.png" type="image/png">
+    <source srcset="/images/logos/logo-nattakan-color.webp" type="image/webp">
     <img
-            src="/images/logos/logo-nattakan-color.png"
+            src="/images/logos/logo-nattakan-color.webp"
             loading="lazy"
-            alt="image.description.37"
+            alt="image.description.254"
             width="180"
             height="72"
             class="inline "/>
@@ -214,13 +220,11 @@
                            aria-label="Change language toggle"
                             href="#"
                         >
-                            <span class="relative top-px">
                                                                 <svg class="w-6 h-6 inline" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><circle cx="256" cy="256" fill="#f0f0f0" r="256"/><g fill="#0052b4"><path d="m52.92 100.142c-20.109 26.163-35.272 56.318-44.101 89.077h133.178z"/><path d="m503.181 189.219c-8.829-32.758-23.993-62.913-44.101-89.076l-89.075 89.076z"/><path d="m8.819 322.784c8.83 32.758 23.993 62.913 44.101 89.075l89.074-89.075z"/><path d="m411.858 52.921c-26.163-20.109-56.317-35.272-89.076-44.102v133.177z"/><path d="m100.142 459.079c26.163 20.109 56.318 35.272 89.076 44.102v-133.176z"/><path d="m189.217 8.819c-32.758 8.83-62.913 23.993-89.075 44.101l89.075 89.075z"/><path d="m322.783 503.181c32.758-8.83 62.913-23.993 89.075-44.101l-89.075-89.075z"/><path d="m370.005 322.784 89.075 89.076c20.108-26.162 35.272-56.318 44.101-89.076z"/></g><g fill="#d80027"><path d="m509.833 222.609h-220.44-.001v-220.442c-10.931-1.423-22.075-2.167-33.392-2.167-11.319 0-22.461.744-33.391 2.167v220.44.001h-220.442c-1.423 10.931-2.167 22.075-2.167 33.392 0 11.319.744 22.461 2.167 33.391h220.44.001v220.442c10.931 1.423 22.073 2.167 33.392 2.167 11.317 0 22.461-.743 33.391-2.167v-220.44-.001h220.442c1.423-10.931 2.167-22.073 2.167-33.392 0-11.317-.744-22.461-2.167-33.391z"/><path d="m322.783 322.784 114.236 114.236c5.254-5.252 10.266-10.743 15.048-16.435l-97.802-97.802h-31.482z"/><path d="m189.217 322.784h-.002l-114.235 114.235c5.252 5.254 10.743 10.266 16.435 15.048l97.802-97.804z"/><path d="m189.217 189.219v-.002l-114.236-114.237c-5.254 5.252-10.266 10.743-15.048 16.435l97.803 97.803h31.481z"/><path d="m322.783 189.219 114.237-114.238c-5.252-5.254-10.743-10.266-16.435-15.047l-97.802 97.803z"/></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
                                 
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
                                          class="h-5 w-5 text-white inline"><path fill-rule="evenodd" d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z" clip-rule="evenodd"></path>
                                     </svg>
-                            </span>
                         </a>
                         <button type="button" aria-expanded="false" aria-controls=":R3a:"
                                 class="group -m-2.5 rounded-full p-2.5 transition hover:bg-nattakan-brown-950/10"
@@ -246,11 +250,11 @@
                             <a aria-label="Home" href="/">
                                 <picture>
     <source srcset="/images/logos/logo-nattakan-bg.webp" type="image/webp">
-    <source srcset="/images/logos/logo-nattakan-bg.png" type="image/png">
+    <source srcset="/images/logos/logo-nattakan-bg.webp" type="image/webp">
     <img
-            src="/images/logos/logo-nattakan-bg.png"
+            src="/images/logos/logo-nattakan-bg.webp"
             loading="lazy"
-            alt="image.description.36"
+            alt="image.description.250"
             width="180"
             height="72"
             class="inline "/>
@@ -377,11 +381,11 @@
                                         <a href="https://www.google.com/maps/dir//Nattakan+-+Thai+Massage,+Zgoda+5,+00-018+Warszawa/@52.2327844,21.0133873,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x471ecd78e8fc547f:0xfdd2f8767f5682e4!2m2!1d21.0133873!2d52.2327844?hl=pl">
                                             <picture>
     <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
-    <source srcset="/images/logos/logo-n-white.png" type="image/png">
+    <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
     <img
-            src="/images/logos/logo-n-white.png"
+            src="/images/logos/logo-n-white.webp"
             loading="lazy"
-            alt="image.description.78"
+            alt="image.description.253"
             width="40"
             height="40"
             class="inline float-left mr-3""/>
@@ -402,11 +406,11 @@
                                         <a href="https://goo.gl/maps/mTGJXkjQGi15qkCJA">
                                             <picture>
     <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
-    <source srcset="/images/logos/logo-n-white.png" type="image/png">
+    <source srcset="/images/logos/logo-n-white.webp" type="image/webp">
     <img
-            src="/images/logos/logo-n-white.png"
+            src="/images/logos/logo-n-white.webp"
             loading="lazy"
-            alt="image.description.78"
+            alt="image.description.253"
             width="40"
             height="40"
             class="inline float-left mr-3""/>
@@ -503,7 +507,7 @@
                     <!-- booking form: start -->
     <div class="mx-auto max-w-xl lg:max-w-4xl mt-5 px-10" id="page-booking">
         <div class="mx-auto mt-10">
-                <div class="flex justify-center  " id="sticky-header_16851799">
+                <div class="flex justify-center  " id="sticky-header_784565534">
     <div>
                     <h1 class="font-TrajanProBold text-4xl text-nattakan-green text-center px-20">Book visit at Nattakan Thai Massage</h1>
         
@@ -727,12 +731,12 @@
                 </form>
                 <div class="text-center hidden" id="therapist-animation">
                                         <picture>
-    <source srcset="/images/animations/rezerwacja_animacja_2.webp" type="image/webp">
-    <source srcset="/images/animations/rezerwacja_animacja_2.gif" type="image/gif">
+    <source srcset="/images/animations/rezerwacja_animacja_3.webp" type="image/webp">
+    <source srcset="/images/animations/rezerwacja_animacja_3.webp" type="image/webp">
     <img
-            src="/images/animations/rezerwacja_animacja_2.gif"
+            src="/images/animations/rezerwacja_animacja_3.webp"
             loading="lazy"
-            alt="image.description.71"
+            alt="image.description.257"
             width="350"
             height="350"
             class="inline "/>
@@ -1001,7 +1005,7 @@
     <div class="mx-auto max-w-xl lg:max-w-4xl mt-5 px-10 hidden" id="booking-confirmation-page">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-6">
             <div class="">
-                    <div class="flex justify-center sticky-header-mobile " id="sticky-header_1652141702">
+                    <div class="flex justify-center sticky-header-mobile " id="sticky-header_571393853">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">__page.booking.reservation_confirmation.title</h3>
         
@@ -1087,7 +1091,7 @@
             </div>
             <div class="">
 
-                    <div class="flex justify-center sticky-header-mobile " id="sticky-header_1164508632">
+                    <div class="flex justify-center sticky-header-mobile " id="sticky-header_805071861">
     <div>
                     <h3 class="font-TrajanProBold text-nattakan-green text-center text-4xl px-5">__page.booking.reservation_confirmation.label4</h3>
         
@@ -1127,11 +1131,11 @@
                     <div class="centrum hidden rounded-3xl">
                         <picture>
     <source srcset="/images/photos/gates/brama_zgoda.webp" type="image/webp">
-    <source srcset="/images/photos/gates/brama_zgoda.jpg" type="image/jpg">
+    <source srcset="/images/photos/gates/brama_zgoda.webp" type="image/webp">
     <img
-            src="/images/photos/gates/brama_zgoda.jpg"
+            src="/images/photos/gates/brama_zgoda.webp"
             loading="lazy"
-            alt="image.description.74"
+            alt="image.description.226"
             width="2517"
             height="1803"
             class="inline "/>
@@ -1142,11 +1146,11 @@
                     <div class="old_town hidden rounded-3xl">
                         <picture>
     <source srcset="/images/photos/gates/brama_moliera.webp" type="image/webp">
-    <source srcset="/images/photos/gates/brama_moliera.jpg" type="image/jpg">
+    <source srcset="/images/photos/gates/brama_moliera.webp" type="image/webp">
     <img
-            src="/images/photos/gates/brama_moliera.jpg"
+            src="/images/photos/gates/brama_moliera.webp"
             loading="lazy"
-            alt="image.description.73"
+            alt="image.description.225"
             width="2000"
             height="1500"
             class="inline "/>
@@ -1482,11 +1486,8 @@
         </div>
     </div>
 
-    <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
-    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
-
-
-
+    <script async src="/js/embla-carousel-autoplay.umd.js"></script>
+    <script async src="/js/embla-carousel.umd.js"></script>
     <script async src="/js/main.js"></script>
     <script>
         let labels_nattakan = {"page.booking.Centrum":"Salon Centrum - ul. Zgoda 5:  Metro Centrum","page.booking.Centrum_label":"Salon Centrum (ul. Zgoda 5)","page.booking.Old_Town":"Salon Stare Miasto - ul. Moliera 6:  Metro Ratusz","page.booking.Old_Town_label":"Salon Stare Miasto (ul. Moliera 6)","page.booking.all_shops":"Obie lokalizacje","page.booking.back_to_seach":"Wr\u00f3\u0107 do wyszukiwania","page.booking.book_now":"Rezerwuj","page.booking.booking_confirmation_text":"Podaj nam kontakt do siebie (telefon lub e-mail) i kliknij przycisk 'Rezerwuj':  za chwil\u0119 dostaniesz wiadomo\u015b\u0107 z potwierdzeniem rezerwacji i szczeg\u00f3\u0142ow\u0105 informacj\u0119 jak do nas dotrze\u0107.<br><br>Jak mamy si\u0119 kontatkowa\u0107 w sprawie rezerwacji?","page.booking.booking_confirmation_title":"Potwierdzenie rezerwacji","page.booking.both_shops_label":"Oba salony:  Salon Centrum (ul. Zgoda 5) i Salon Stare Miasto (ul. Moliera 6)","page.booking.button_cancel":"Anuluj","page.booking.button_reserve":"Rezerwuj","page.booking.contact":"Telefon lub e-mail","page.booking.contact_placeholder":"Dodaj kierunkowy kraju dla zagraniczncyh numer\u00f3w!","page.booking.contact_type_email":"E-mail","page.booking.contact_type_fb":"Fb login","page.booking.contact_type_google":"Google login","page.booking.contact_type_phone":"Telefon (SMS)","page.booking.date":"Data Wizyty","page.booking.date_plus_day":"dzie\u0144","page.booking.date_plus_days":"dni","page.booking.date_today":"dzi\u015b","page.booking.date_tomorrow":"jutro","page.booking.email":"E-mail","page.booking.email_placeholder":"Podaj sw\u00f3j adres e-mail","page.booking.error_message_conflict":"Niestety podany temin nie jest ju\u017c dost\u0119pny. Spr\u00f3buj wyszuka\u0107 ponownie.","page.booking.extra_msg":"","page.booking.google_review_link":"<a href='https: \/\/www.google.pl' class='button'>Oce\u0144 nas w Google Maps<\/a>","page.booking.header":"Szukaj terminu","page.booking.header_review":"Oce\u0144 nas","page.booking.length":"D\u0142ugo\u015b\u0107 masa\u017cu","page.booking.length_120":"2 godziny","page.booking.length_30":"30 minut","page.booking.length_45":"45 minut","page.booking.length_60":"1 godzina","page.booking.length_90":"1,5 godziny","page.booking.link_for_errors":"\/blad-systemu-rezerwacji\/","page.booking.nattakan_quote":"Cze\u015b\u0107, jestem Nattakan, Twoja wirtualna recepcjonistka! Ch\u0119tnie znajd\u0119 dla Ciebie termin na masa\u017c.","page.booking.next_day":"przysz\u0142y","page.booking.next_day_her":"przysz\u0142a","page.booking.people":"Liczba os\u00f3b","page.booking.people_1":"1 osoba","page.booking.people_2":"2 osoby","page.booking.people_3":"3 osoby","page.booking.phone":"Telefon","page.booking.phone_placeholder":"np. 123 456 789","page.booking.phonel_placeholder":"Podaj sw\u00f3j numer telefonu","page.booking.policy_1":"Zgoda na przetwarzanie danych,","page.booking.policy_2":"Znam polityk\u0119 prywatno\u015bci i wiem jak przetwarzane b\u0119d\u0105 moje dane osobowe. Polityka prywatno\u015bci dost\u0119pna jest w linku w stopce.","page.booking.remember":"Zapami\u0119taj","page.booking.remember_me":"Zapami\u0119taj tel.\/e-mail","page.booking.reservation_confirmation.label1":"__page.booking.reservation_confirmation.label1","page.booking.reservation_confirmation.label2":"__page.booking.reservation_confirmation.label2","page.booking.reservation_confirmation.label3":"__page.booking.reservation_confirmation.label3","page.booking.reservation_confirmation.label4":"__page.booking.reservation_confirmation.label4","page.booking.reservation_confirmation.label5":"__page.booking.reservation_confirmation.label5","page.booking.reservation_confirmation.label_centrum1":"__page.booking.reservation_confirmation.label_centrum1","page.booking.reservation_confirmation.label_centrum_gmaps_url":"__page.booking.reservation_confirmation.label_centrum_gmaps_url","page.booking.reservation_confirmation.label_old_town1":"__page.booking.reservation_confirmation.label_old_town1","page.booking.reservation_confirmation.label_old_town_gmaps_url":"__page.booking.reservation_confirmation.label_old_town_gmaps_url","page.booking.reservation_confirmation.title":"__page.booking.reservation_confirmation.title","page.booking.review_additional":"Dodatkowe uwagi do oceny","page.booking.review_additional_placeholder":"Powiedz nam co mogliby\u015bmy zrobi\u0107 lepiej by zas\u0142u\u017cy\u0107 na najwy\u017csz\u0105 ocen\u0119?","page.booking.review_thank_you":"Dzi\u0119kujemy za Twoj\u0105 opini\u0119. Postaramy si\u0119 poprawi\u0107 nast\u0119pnym razem.","page.booking.review_thank_you_google":"Dzi\u0119kujemy za tak wysok\u0105 ocen\u0119 naszych us\u0142ug. Mogliby\u015bmy prosi\u0107 Ci\u0119 o wyra\u017cenie tej opini w Google Maps?","page.booking.searching":"Sprawdzam","page.booking.searching_buble":"Wczytuj\u0119 dost\u0119pne terminy...","page.booking.send":"Szukaj terminu","page.booking.send_review":"Wy\u015blij opini\u0119","page.booking.shops_label":"Szukaj w salonach:","page.booking.special":"Dodatkowe \u017cyczenia i uwagi","page.booking.text_review":"Oce\u0144 jako\u015b\u0107 naszych us\u0142ug","page.booking.text_review_additional":"Dzi\u0119kujemy za Twoj\u0105 opinie. Mo\u017cemy prosi\u0107 Ci\u0119 o podzielienie si\u0119 swoimi uwagami Co mogliby\u015bmy usprawni\u0107 by nast\u0119pnym razem zas\u0142u\u017cy\u0107 na ocen\u0119 5","page.booking.time":"Godzina","page.booking.title":"Book visit at Nattakan Thai Massage"};
