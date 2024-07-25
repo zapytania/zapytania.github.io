@@ -1,9 +1,7 @@
-console.log('main.js');
 var menuToggled = false;
 
 function menuToggle()
 {
-    console.log('menuToggle', menuToggled);
 
     if (!menuToggled) {
         document.getElementById('headerDiv').setAttribute('aria-hidden', true);
@@ -27,7 +25,6 @@ function menuToggle()
 
 function toggleLanguages()
 {
-    console.log('click');
     document.getElementById('drawer').classList.toggle('translate-x-0');
     document.getElementById('drawer').classList.toggle('translate-x-full');
     document.getElementById('drawer-backdrop').classList.toggle('invisible');
@@ -36,7 +33,6 @@ function toggleLanguages()
 }
 
 // document.addEventListener("DOMContentLoaded", function(event) {
-    console.log('DOMContentLoaded');
 
 
     function detectMob() {
@@ -47,7 +43,7 @@ function toggleLanguages()
     document.querySelectorAll(selector).forEach(i => {
         let topOffset = (window.pageYOffset || i.scrollTop) - (i.clientTop || 0);
         let topOffset2 = (window.pageYOffset || (i.scrollTop + i.scrollHeight)) - (i.clientTop || 0);
-        console.log(i.getBoundingClientRect(), window);
+
         stickyHeadersPoints.push({
             'element': i,
             'top': i.getBoundingClientRect().top,
@@ -68,13 +64,11 @@ function toggleLanguages()
     let stickyHeaderOffsetTopPrev = getStickyHeadersOffset(stickyHeaderIndex - 1);
     let stickyHeaderOffsetTopNext = getStickyHeadersOffset(stickyHeaderIndex + 1);
 
-    console.log('stickyHeadersPoints', stickyHeadersPoints);
 
 
     function setScrollItemsPosition() {
         const currentScrollPos = window.pageYOffset;
 
-        //console.log(currentScrollPos);
         if (currentScrollPos > 80) {
             document.getElementById('bottomMenu').classList.remove('hiddenBottomMenu');
         } else {
@@ -83,7 +77,6 @@ function toggleLanguages()
 
         // let el = getElementWithStickyTitle(currentScrollPos);
         // if (el) {
-        //     console.log('has sticky el', el);
         //     el['element'].classList.add('sticky');
         // }
         //
@@ -123,9 +116,7 @@ const observer = new IntersectionObserver(entries => {
     // Loop over the entries
     entries.forEach(entry => {
         // If the element is visible
-        //console.log(entry);
         if (entry.isIntersecting) {
-            // console.log('entry.isIntersecting', entry);
             // Add the animation class
             entry.target.classList.add('in-view-animation');
         }
@@ -242,7 +233,6 @@ document.querySelectorAll('.embla_carousel').forEach((i) => {
 
         const autoplay = i.getAttribute('data-autplay') ?? '0';
         const duration = i.getAttribute('data-duration') ?? '3000';
-        console.log(autoplay, duration);
 
         const emblaApi = EmblaCarousel(viewportNode, {loop: true}, [
             EmblaCarouselAutoplay({ playOnInit: autoplay === '1', delay: duration })
