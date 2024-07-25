@@ -1,0 +1,10 @@
+{
+  "build/app.css": "/build/app.css",
+  "build/app.js": "/build/app.js",
+  "build/runtime.js": "/build/runtime.js",
+  "build/fonts/TrajanPro-Regular.ttf": "/build/fonts/TrajanPro-Regular.5e3d3ff4.ttf",
+  "build/fonts/fa-solid-900.ttf": "/build/fonts/fa-solid-900.07ed6d5f.ttf",
+  "build/fonts/TrajanPro-Bold.otf": "/build/fonts/TrajanPro-Bold.3f14e0ff.otf",
+  "build/fonts/Timeless.ttf": "/build/fonts/Timeless.3d16f432.ttf",
+  "build/fonts/Timeless-Bold.ttf": "/build/fonts/Timeless-Bold.512d2c5d.ttf"
+}
