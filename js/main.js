@@ -200,7 +200,7 @@ function addDotBtnsAndClickHandlers (emblaApi, dotsNode)  {
     const addDotBtnsWithClickHandlers = () => {
         dotsNode.innerHTML = emblaApi
             .scrollSnapList()
-            .map(() => '<button class="embla__dot" type="button"></button>')
+            .map(() => '<button class="embla__dot" type="button" aria-label="button"></button>')
             .join('');
 
         const scrollTo = (index) => {
