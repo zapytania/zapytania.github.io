@@ -67,14 +67,14 @@ function NattakanReservation(id) {
     };
 
     this.selectedReservation = {
-        description: 'aaa',
-        dateFrom: 'aaa',
-        dateTo: 'aaa',
-        guid: 'aaa',
-        label: 'aaa',
-        searchType: 'aaa',
-        shopName: 'aaa',
-        shopId: 'aaa',
+        description: '',
+        dateFrom: '',
+        dateTo: '',
+        guid: '',
+        label: '',
+        searchType: '',
+        shopName: '',
+        shopId: '',
     };
 
     this.reservationForm = {
@@ -170,7 +170,7 @@ function NattakanReservation(id) {
         people: [],
         form: {
             contact: '',
-            special: '',
+            special: 'fdsfdsfsdf dsdfs dsfds',
             contactType: 'phone',
             phone: '',
             name: ''
@@ -179,6 +179,20 @@ function NattakanReservation(id) {
     let phoneInput;
     this.init = function()
     {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const length = urlParams.get('length');
+        const description = urlParams.get('description');
+
+        if (length) {
+            this.reservationForm.form.length = length.toString();
+        }
+        if (description) {
+            this.reservationForm.form.special = description.toString();
+        }
+
+        console.log(length, description);
+
         rivets.binders.addclass = function(el, value) {
             if (el.addedClass) {
                 jQuery(el).removeClass(el.addedClass);
