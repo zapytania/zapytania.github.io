@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//www.nattakan.pl/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <sitemap>
-        <loc>https://www.nattakan.pl/post-sitemap.xml</loc>
-        <lastmod>2024-07-29T17:08:37+00:00</lastmod>
+        <loc>https://zapytania.github.io/post-sitemap.xml</loc>
+        <lastmod>2024-07-29T17:14:35+00:00</lastmod>
     </sitemap>
     <sitemap>
-        <loc>https://www.nattakan.pl/page-sitemap.xml</loc>
-        <lastmod>2024-07-29T17:08:37+00:00</lastmod>
+        <loc>https://zapytania.github.io/page-sitemap.xml</loc>
+        <lastmod>2024-07-29T17:14:35+00:00</lastmod>
     </sitemap>
 </sitemapindex>
