@@ -3,6 +3,8 @@ function NattakanReservation(id) {
     let that = this;
     this.id = id;
 
+    this.url = 'http://api.nattakan.pl/reservation.php';
+
 
     this.bookNowOnClickCallback = function(event, item) {
         if (event) {
@@ -243,7 +245,7 @@ function NattakanReservation(id) {
 
     function loadSearchData(nattakan_search_id, nattakan_reservation_id)
     {
-        let url = 'https://www.nattakan.pl/reservation.php?action=search_data&locale='+nattakan_locale+'&guid='+nattakan_search_id;
+        let url = that.url+'?action=search_data&locale='+nattakan_locale+'&guid='+nattakan_search_id;
         jQuery( "#reservation-form" ).fadeTo( 500 , 0, function() {
             // Animation complete.
             jQuery('#reservation-form').addClass('hidden');
@@ -325,7 +327,7 @@ function NattakanReservation(id) {
 
         searchData['date'] =  dateDiff(d, d2);
 
-        let url = 'https://www.nattakan.pl/reservation.php?action=find&locale='+nattakan_locale;
+        let url = that.url+'?action=find&locale='+nattakan_locale;
 
         var fadeComplete = false;
         jQuery( "#reservation-form" ).fadeTo( 500 , 0, function() {
@@ -426,7 +428,7 @@ function NattakanReservation(id) {
         jQuery(dys).html('<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>');
         jQuery('button').attr('disabled', true).css('opacity', 0.5);
         jQuery(dys).css('opacity', 1);
-        let url = 'https://www.nattakan.pl/reservation.php?action=book&guid='+proposal_id+'&locale='+nattakan_locale;
+        let url = that.url+'?action=book&guid='+proposal_id+'&locale='+nattakan_locale;
 
         var postData = JSON.parse(JSON.stringify(that.modalConfirmData.form));
         postData['phone'] = phoneInput.getNumber();
@@ -493,11 +495,15 @@ function NattakanReservation(id) {
 
         try {
             gtag('event', 'purchase', gtagdata);
-        }catch(e){}
+        }catch(e){
+            console.log(e);
+        }
 
         try{
             fbq('track', 'Purchase', {currency: "PLN", value: value});
-        }catch(e){}
+        }catch(e){
+            console.log(e);
+        }
 
         try{
             wph('track', 'Purchase', {
@@ -505,11 +511,15 @@ function NattakanReservation(id) {
                 value: value,
                 value_gross: value
             });
-        }catch(e){}
+        }catch(e){
+            console.log(e);
+        }
 
         try{
             window.lintrk('track', { conversion_id: proposal_id });
-        }catch(e){}
+        }catch(e){
+            console.log(e);
+        }
 
     }
     that.closeModal = function()
@@ -574,7 +584,7 @@ window.onerror = function(msg, url, line, col, error) {
 
     var xhr = new XMLHttpRequest();
 
-    xhr.open('POST', 'https://www.nattakan.pl/reservation.php?action=error&locale='+nattakan_locale);
+    xhr.open('POST', that.url+'?action=error&locale='+nattakan_locale);
     xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.onload = function() {
