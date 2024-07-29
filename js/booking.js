@@ -191,8 +191,6 @@ function NattakanReservation(id) {
             this.reservationForm.form.special = description.toString();
         }
 
-        console.log(length, description);
-
         rivets.binders.addclass = function(el, value) {
             if (el.addedClass) {
                 jQuery(el).removeClass(el.addedClass);

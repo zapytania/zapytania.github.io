@@ -1,7 +1,7 @@
 {
-  "build/app.css": "/build/app.cd5a6261.css",
-  "build/app.js": "/build/app.652303d0.js",
-  "build/runtime.js": "/build/runtime.05dacd30.js",
+  "build/app.css": "/build/app.css",
+  "build/app.js": "/build/app.js",
+  "build/runtime.js": "/build/runtime.js",
   "build/fonts/TrajanPro-Regular.ttf": "/build/fonts/TrajanPro-Regular.5e3d3ff4.ttf",
   "build/fonts/fa-solid-900.ttf": "/build/fonts/fa-solid-900.07ed6d5f.ttf",
   "build/fonts/TrajanPro-Bold.otf": "/build/fonts/TrajanPro-Bold.3f14e0ff.otf",

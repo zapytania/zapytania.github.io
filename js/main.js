@@ -139,7 +139,6 @@ document.querySelectorAll('.scroll-animate-vertical').forEach((i) => {
 // const options = { loop: false }
 // const emblaApi = EmblaCarousel(emblaNode, options)
 //
-// console.log(emblaApi.slideNodes()) // Access API
 
 function addTogglePrevNextBtnsActive  (emblaApi, prevBtn, nextBtn)  {
     const togglePrevNextBtnsState = () => {
@@ -257,3 +256,9 @@ function navigateToTopAndOpenMenu() {
     setTimeout(menuToggle, 700);
 }
 
+function telephoneClick(event)
+{
+    console.log('telephoneClick', event);
+
+    return true;
+}
