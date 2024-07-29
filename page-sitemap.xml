@@ -296,7 +296,7 @@
             <image:loc>https://zapytania.github.io/images/photos/therapists/nattakan_photo_with_computer.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://zapytania.github.io/images/animations/rezerwacja_animacja_3.gif</image:loc>
+            <image:loc>https://zapytania.github.io/images/animations/rezerwacja_animacja_2.gif</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://zapytania.github.io/images/decorations/subtitle_decoration_left.png</image:loc>
@@ -852,6 +852,37 @@
         </image:image>
     </url>
     <url>
+        <loc>https://zapytania.github.io/coupon</loc>
+        <lastmod>2024-07-29T18:32:54+00:00</lastmod>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/logos/logo-nattakan-color.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/logos/logo-nattakan-bg.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/logos/logo-n-white.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/logos/logo-n-white.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/decorations/title_decoration_left_green.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/decorations/title_decoration_right_green.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/photos/general/voucher-na-masaz2-1024x1024.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/decorations/mapka_zgoda5.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/decorations/mapka_kozia5a-1.svg</image:loc>
+        </image:image>
+    </url>
+    <url>
         <loc>https://zapytania.github.io/en/</loc>
         <lastmod>2024-07-29T06:42:37+00:00</lastmod>
         <image:image>
@@ -1147,7 +1178,7 @@
             <image:loc>https://zapytania.github.io/images/photos/therapists/nattakan_photo_with_computer.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://zapytania.github.io/images/animations/rezerwacja_animacja_1.gif</image:loc>
+            <image:loc>https://zapytania.github.io/images/animations/rezerwacja_animacja_3.gif</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://zapytania.github.io/images/decorations/subtitle_decoration_left.png</image:loc>
@@ -1694,6 +1725,37 @@
         </image:image>
         <image:image>
             <image:loc>https://zapytania.github.io/images/decorations/title_decoration_right_green.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/decorations/mapka_zgoda5.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/decorations/mapka_kozia5a-1.svg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://zapytania.github.io/en/giftcard</loc>
+        <lastmod>2024-07-29T18:32:54+00:00</lastmod>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/logos/logo-nattakan-color.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/logos/logo-nattakan-bg.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/logos/logo-n-white.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/logos/logo-n-white.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/decorations/title_decoration_left_green.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/decorations/title_decoration_right_green.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://zapytania.github.io/images/photos/general/voucher-na-masaz2-1024x1024.jpg</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://zapytania.github.io/images/decorations/mapka_zgoda5.svg</image:loc>
