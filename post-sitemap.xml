@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//www.nattakan.pl/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://www.nattakan.pl/buddyzm-a-masaz-tajski</loc>
+        <loc>https://zapytania.github.io/buddyzm-a-masaz-tajski</loc>
         <lastmod>2024-07-22T20:45:12+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -32,7 +32,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/happy-hours</loc>
+        <loc>https://zapytania.github.io/happy-hours</loc>
         <lastmod>2024-07-22T20:44:58+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -63,7 +63,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/dzien-ojca</loc>
+        <loc>https://zapytania.github.io/dzien-ojca</loc>
         <lastmod>2024-07-28T16:16:10+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -94,7 +94,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/sklep-nattakan</loc>
+        <loc>https://zapytania.github.io/sklep-nattakan</loc>
         <lastmod>2024-07-28T16:14:41+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -125,7 +125,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/voucher-na-masaz</loc>
+        <loc>https://zapytania.github.io/voucher-na-masaz</loc>
         <lastmod>2024-07-28T16:14:24+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -162,7 +162,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/boze-narodzenie-2020</loc>
+        <loc>https://zapytania.github.io/boze-narodzenie-2020</loc>
         <lastmod>2024-07-28T16:11:25+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -193,7 +193,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/masaz-tajski</loc>
+        <loc>https://zapytania.github.io/masaz-tajski</loc>
         <lastmod>2024-07-25T15:47:47+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -230,7 +230,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/masaz-dla-dwojga</loc>
+        <loc>https://zapytania.github.io/masaz-dla-dwojga</loc>
         <lastmod>2024-07-25T15:48:16+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -261,7 +261,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/nowy-rok</loc>
+        <loc>https://zapytania.github.io/nowy-rok</loc>
         <lastmod>2024-07-28T16:12:52+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -292,7 +292,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/masaz-na-prezent-urodzinowy</loc>
+        <loc>https://zapytania.github.io/masaz-na-prezent-urodzinowy</loc>
         <lastmod>2024-07-25T15:34:40+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -323,7 +323,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/voucher-dla-wosp</loc>
+        <loc>https://zapytania.github.io/voucher-dla-wosp</loc>
         <lastmod>2024-07-28T16:03:24+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -354,7 +354,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/makha-bucha</loc>
+        <loc>https://zapytania.github.io/makha-bucha</loc>
         <lastmod>2024-07-28T16:01:18+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -385,7 +385,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/wielkanoc-2021</loc>
+        <loc>https://zapytania.github.io/wielkanoc-2021</loc>
         <lastmod>2024-07-28T16:00:59+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -416,7 +416,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/songkran</loc>
+        <loc>https://zapytania.github.io/songkran</loc>
         <lastmod>2024-07-28T16:00:42+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -447,7 +447,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/16-17-czerwca</loc>
+        <loc>https://zapytania.github.io/16-17-czerwca</loc>
         <lastmod>2024-07-28T15:57:37+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -478,7 +478,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/nasze-aktualne-promocje</loc>
+        <loc>https://zapytania.github.io/nasze-aktualne-promocje</loc>
         <lastmod>2024-07-25T16:28:09+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -509,7 +509,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/pierwsze-urodziny-nattakan</loc>
+        <loc>https://zapytania.github.io/pierwsze-urodziny-nattakan</loc>
         <lastmod>2024-07-28T15:57:16+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -540,7 +540,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/wspieramy-fundacje-akogo-premiera-kalendarza-gwiazd-2022</loc>
+        <loc>https://zapytania.github.io/wspieramy-fundacje-akogo-premiera-kalendarza-gwiazd-2022</loc>
         <lastmod>2024-07-28T15:54:36+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -571,7 +571,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/tajski-masaz-stop-polaczony-z-refleksologia</loc>
+        <loc>https://zapytania.github.io/tajski-masaz-stop-polaczony-z-refleksologia</loc>
         <lastmod>2024-07-28T15:54:24+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -602,7 +602,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/festiwal-lampionow</loc>
+        <loc>https://zapytania.github.io/festiwal-lampionow</loc>
         <lastmod>2024-07-28T15:53:10+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -633,7 +633,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/masaz-tajski-z-olejkiem/</loc>
+        <loc>https://zapytania.github.io/masaz-tajski-z-olejkiem/</loc>
         <lastmod>2024-07-28T15:52:15+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -664,7 +664,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/masaz-ze-stemplami-ziolowymi</loc>
+        <loc>https://zapytania.github.io/masaz-ze-stemplami-ziolowymi</loc>
         <lastmod>2024-07-28T15:51:26+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -695,7 +695,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/otwarcie-drugiego-salonu-przy-starym-miescie</loc>
+        <loc>https://zapytania.github.io/otwarcie-drugiego-salonu-przy-starym-miescie</loc>
         <lastmod>2024-07-25T15:44:24+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -726,7 +726,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/masaz-balijski</loc>
+        <loc>https://zapytania.github.io/masaz-balijski</loc>
         <lastmod>2024-07-28T15:51:07+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -757,7 +757,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/noworoczne-postanowienie-chodz-na-masaz</loc>
+        <loc>https://zapytania.github.io/noworoczne-postanowienie-chodz-na-masaz</loc>
         <lastmod>2024-07-28T15:50:12+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -788,7 +788,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/buddhism-and-thai-massage</loc>
+        <loc>https://zapytania.github.io/en/buddhism-and-thai-massage</loc>
         <lastmod>2024-07-22T20:45:12+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -819,7 +819,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/happy_hours</loc>
+        <loc>https://zapytania.github.io/en/happy_hours</loc>
         <lastmod>2024-07-22T20:44:58+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -850,7 +850,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/fathers-day</loc>
+        <loc>https://zapytania.github.io/en/fathers-day</loc>
         <lastmod>2024-07-28T16:16:10+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -881,7 +881,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/nattakan-shop</loc>
+        <loc>https://zapytania.github.io/en/nattakan-shop</loc>
         <lastmod>2024-07-28T16:14:41+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -912,7 +912,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/massage-voucher</loc>
+        <loc>https://zapytania.github.io/en/massage-voucher</loc>
         <lastmod>2024-07-28T16:14:24+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -949,7 +949,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/christmas-2020</loc>
+        <loc>https://zapytania.github.io/en/christmas-2020</loc>
         <lastmod>2024-07-28T16:11:25+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -980,7 +980,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/thai_massage</loc>
+        <loc>https://zapytania.github.io/en/thai_massage</loc>
         <lastmod>2024-07-25T15:47:47+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1017,7 +1017,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/massage-for-two</loc>
+        <loc>https://zapytania.github.io/en/massage-for-two</loc>
         <lastmod>2024-07-25T15:48:16+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1048,7 +1048,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/new-year/</loc>
+        <loc>https://zapytania.github.io/en/new-year/</loc>
         <lastmod>2024-07-28T16:12:52+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1079,7 +1079,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/massage-as-a-birthday-present</loc>
+        <loc>https://zapytania.github.io/en/massage-as-a-birthday-present</loc>
         <lastmod>2024-07-25T15:34:40+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1110,7 +1110,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/voucher-for-wosp</loc>
+        <loc>https://zapytania.github.io/en/voucher-for-wosp</loc>
         <lastmod>2024-07-28T16:03:24+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1141,7 +1141,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/makha-bucha-day</loc>
+        <loc>https://zapytania.github.io/en/makha-bucha-day</loc>
         <lastmod>2024-07-28T16:01:18+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1172,7 +1172,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/easter-2021</loc>
+        <loc>https://zapytania.github.io/en/easter-2021</loc>
         <lastmod>2024-07-28T16:00:59+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1203,7 +1203,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/songkran-en</loc>
+        <loc>https://zapytania.github.io/en/songkran-en</loc>
         <lastmod>2024-07-28T16:00:42+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1234,7 +1234,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/16-17th-of-june</loc>
+        <loc>https://zapytania.github.io/en/16-17th-of-june</loc>
         <lastmod>2024-07-28T15:57:37+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1265,7 +1265,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/our-promos</loc>
+        <loc>https://zapytania.github.io/en/our-promos</loc>
         <lastmod>2024-07-25T16:28:09+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1296,7 +1296,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/nattakan-first-birthday</loc>
+        <loc>https://zapytania.github.io/en/nattakan-first-birthday</loc>
         <lastmod>2024-07-28T15:57:16+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1327,7 +1327,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/we-support-akogo-charity-organisation-premiere-of-2022-calendar</loc>
+        <loc>https://zapytania.github.io/en/we-support-akogo-charity-organisation-premiere-of-2022-calendar</loc>
         <lastmod>2024-07-28T15:54:36+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1358,7 +1358,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/thai-foot-massage-combined-with-reflexology</loc>
+        <loc>https://zapytania.github.io/en/thai-foot-massage-combined-with-reflexology</loc>
         <lastmod>2024-07-28T15:54:24+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1389,7 +1389,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/lantern-festival</loc>
+        <loc>https://zapytania.github.io/en/lantern-festival</loc>
         <lastmod>2024-07-28T15:53:10+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1420,7 +1420,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/thai-massage-with-oil</loc>
+        <loc>https://zapytania.github.io/en/thai-massage-with-oil</loc>
         <lastmod>2024-07-28T15:52:15+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1451,7 +1451,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/traditional-massage-with-herbal-stamps</loc>
+        <loc>https://zapytania.github.io/en/traditional-massage-with-herbal-stamps</loc>
         <lastmod>2024-07-28T15:51:26+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1482,7 +1482,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/opening-of-our-second-location-near-old-town</loc>
+        <loc>https://zapytania.github.io/en/opening-of-our-second-location-near-old-town</loc>
         <lastmod>2024-07-25T15:44:24+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1513,7 +1513,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/bali-massage</loc>
+        <loc>https://zapytania.github.io/en/bali-massage</loc>
         <lastmod>2024-07-28T15:51:07+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1544,7 +1544,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/new-year-resolution-go-for-massage</loc>
+        <loc>https://zapytania.github.io/en/new-year-resolution-go-for-massage</loc>
         <lastmod>2024-07-28T15:50:12+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//www.nattakan.pl/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://www.nattakan.pl/</loc>
+        <loc>https://zapytania.github.io/</loc>
         <lastmod>2024-07-29T06:42:37+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -272,7 +272,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/rezerwacja</loc>
+        <loc>https://zapytania.github.io/rezerwacja</loc>
         <lastmod>2024-07-29T06:41:56+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -296,7 +296,7 @@
             <image:loc>https://www.nattakan.pl/images/photos/therapists/nattakan_photo_with_computer.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://www.nattakan.pl/images/animations/rezerwacja_animacja_3.gif</image:loc>
+            <image:loc>https://www.nattakan.pl/images/animations/rezerwacja_animacja_1.gif</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/decorations/subtitle_decoration_left.png</image:loc>
@@ -324,7 +324,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/kontakt</loc>
+        <loc>https://zapytania.github.io/kontakt</loc>
         <lastmod>2024-07-29T06:40:48+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -355,7 +355,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/promocje</loc>
+        <loc>https://zapytania.github.io/promocje</loc>
         <lastmod>2024-07-29T06:43:41+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -461,7 +461,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/pakiety</loc>
+        <loc>https://zapytania.github.io/pakiety</loc>
         <lastmod>2024-07-29T06:43:17+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -588,7 +588,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/galeria</loc>
+        <loc>https://zapytania.github.io/galeria</loc>
         <lastmod>2024-07-29T06:43:30+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -784,7 +784,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/aktualnosci</loc>
+        <loc>https://zapytania.github.io/aktualnosci</loc>
         <lastmod>2024-07-29T06:43:07+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -824,7 +824,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/prywatnosc</loc>
+        <loc>https://zapytania.github.io/prywatnosc</loc>
         <lastmod>2024-07-29T06:44:06+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -852,7 +852,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/</loc>
+        <loc>https://zapytania.github.io/en/</loc>
         <lastmod>2024-07-29T06:42:37+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1123,7 +1123,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/booking</loc>
+        <loc>https://zapytania.github.io/en/booking</loc>
         <lastmod>2024-07-29T06:41:56+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1175,7 +1175,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/contact</loc>
+        <loc>https://zapytania.github.io/en/contact</loc>
         <lastmod>2024-07-29T06:40:48+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1206,7 +1206,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/promotions</loc>
+        <loc>https://zapytania.github.io/en/promotions</loc>
         <lastmod>2024-07-29T06:43:41+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1312,7 +1312,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/packages</loc>
+        <loc>https://zapytania.github.io/en/packages</loc>
         <lastmod>2024-07-29T06:43:17+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1439,7 +1439,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/gallery</loc>
+        <loc>https://zapytania.github.io/en/gallery</loc>
         <lastmod>2024-07-29T06:43:30+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1635,7 +1635,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/news</loc>
+        <loc>https://zapytania.github.io/en/news</loc>
         <lastmod>2024-07-29T06:43:07+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
@@ -1675,7 +1675,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://www.nattakan.pl/en/privacy</loc>
+        <loc>https://zapytania.github.io/en/privacy</loc>
         <lastmod>2024-07-29T06:44:06+00:00</lastmod>
         <image:image>
             <image:loc>https://www.nattakan.pl/images/logos/logo-nattakan-color.png</image:loc>
